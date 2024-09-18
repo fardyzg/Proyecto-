@@ -1,0 +1,35 @@
+body {
+  background-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250vh;
+  flex-direction: column;
+}
+
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+legend {
+  border: 2px solid black;
+  padding: 1rem;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  color: aliceblue;
+}
+
+form {
+  width: 500px;
+  border: 2px solid black;
+  padding: 5rem;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  color: aliceblue;
+}
